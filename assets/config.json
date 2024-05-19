@@ -1,0 +1,85 @@
+{
+  "rateOfInterest": {
+    "textColor": "#000000",
+    "textSize": 16,
+    "labelText": "Rate of Interest",
+    "values": {
+      "1%": 1,
+      "2%": 2,
+      "3%": 3,
+      "4%": 4,
+      "5%": 5,
+      "6%": 6,
+      "7%": 7,
+      "8%": 8,
+      "9%": 9,
+      "10%": 10,
+      "11%": 11,
+      "12%": 12,
+      "13%": 13,
+      "14%": 14,
+      "15%": 15
+    }
+  },
+  "principalAmount": {
+    "hintText": "Enter Principal Amount",
+    "textColor": "#000000",
+    "textSize": 16,
+    "minAmounts": {
+      "1-3": 10000,
+      "4-7": 50000,
+      "8-12": 75000,
+      "default": 100000
+    },
+    "maxAmount": 10000000,
+    "errorMessage": "Please enter a valid principal amount."
+  },
+  "compoundFrequency": {
+    "labelText": "Times Compounded Per Year",
+    "textColor": "#000000",
+    "textSize": 16,
+    "values": {
+      "default": {
+        "1": 1,
+        "2": 2,
+        "4": 4
+      },
+      "specific": {
+        "12": {
+          "1": 1
+        },
+        "6": {
+          "2": 2
+        },
+        "3": {
+          "4": 4
+        }
+      }
+    }
+  },
+  "years": {
+    "labelText": "Number of Years",
+    "textColor": "#000000",
+    "textSize": 16,
+    "values": {
+      "1": [
+        1,
+        10
+      ],
+      "2": [
+        1,
+        20
+      ],
+      "4": [
+        1,
+        30
+      ]
+    }
+  },
+  "output": {
+    "textColor": "#000000",
+    "labelText": "Output Value",
+    "textSize": 16,
+    "modeOfDisplay": "text-field"
+  }
+}
